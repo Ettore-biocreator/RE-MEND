@@ -2,8 +2,6 @@
 # RE-MEND PROJECT - Task 1: Differential Expression Analysis
 # Description: DEA on depressed vs non-depressed women at two timepoints
 #              (pre-partum: v38, post-partum: pp) with drug repurposing output
-# Author: [Your Name]
-# Date: [Date]
 # =============================================================================
 
 
@@ -361,3 +359,4 @@ all_results <- lapply(contrasts_to_run, function(x) {
 names(all_results) <- sapply(contrasts_to_run, function(x) {
   paste0(x$contrast, "_", x$timepoint)
 })
+
