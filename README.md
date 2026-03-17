@@ -30,13 +30,13 @@ RE-MEND/
 ### Basic/
 
 #### Task 1 — Differential Expression Analysis: Depressed vs Healthy Women
-RNA-seq differential expression analysis (DESeq2) on ~340 blood samples collected at two timepoints (pre-partum: `v38`, post-partum: `pp`). Depression status is defined using EPDS scores and classified into four trajectories: **Both**, **Pregnancy_only**, **Postpartum_only**, and **Controls**. Six contrasts are tested (3 per timepoint), correcting for age and BMI. DEG lists are used as input for drug repurposing via MANTRA.
+RNA-seq differential expression analysis (DESeq2) on ~340 blood samples collected at two timepoints (pre-partum: `v38`, post-partum: `pp`). Depression status is defined using EPDS scores and classified into four trajectories: **Both**, **Pregnancy_only**, **Postpartum_only**, and **Controls**. Six contrasts are tested (3 per timepoint), correcting for age and BMI. Full ranked gene lists are produced as input for drug repurposing via MANTRA.
 
 #### Task 2 — Differential Expression Analysis: Pre vs Post-partum in Healthy Women
 DESeq2 analysis comparing pre-partum and post-partum timepoints exclusively in healthy control women, excluding SSRI users. Corrects for age and BMI.
 
 #### Task 2b — Paired Analysis: Pre vs Post-partum in Healthy Women
-DESeq2 analysis restricted to paired samples from healthy control women (both timepoints available for the same subject). Simplified design without covariate correction due to the paired structure.
+DESeq2 analysis restricted to paired samples from healthy control women (both timepoints available for the same subject).
 
 ---
 
