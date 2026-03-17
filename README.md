@@ -12,13 +12,13 @@ This repository contains the bioinformatic analysis scripts developed as part of
 RE-MEND/
 │
 ├── Basic/
-│   ├── Task1_DEA_Depression.R
-│   ├── Task2_DEA_Healthy.R
-│   └── Task2b_DEA_Healthy_Paired.R
+│   ├── Depression_Deseq2.r
+│   ├── Healthy_Deseq2.R
+│   └── Healthy_Deseq2_paired.r
 │
 ├── Organoids/
-│   ├── Task3_Hormones_DEA.R
-│   └── Task3_Network_Visualization.R
+│   ├── Organoids_Hormones_vs_DMSO_Deseq2.r
+│   └── Network.R
 │
 └── README.md
 ```
